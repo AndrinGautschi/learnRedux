@@ -14,5 +14,5 @@ export function rootReducer(lastState: AppState, action: Action): AppState {
     case CounterActionsService.INCREMENT: return {counter: lastState.counter + 1};
     case CounterActionsService.DECREMENT: return {counter: lastState.counter - 1};
   }
-  return lastState;
+  return lastState; // some Change
 }
